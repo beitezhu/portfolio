@@ -5,8 +5,13 @@ permalink: /about/
 image: 01.jpg
 ---
 
-Hi, my name is Alex Rodriguez. I like being at the center of events, being free and enjoying every moment. Copper mug fam food truck intelligentsia 8-bit echo park ramps meggings humblebrag tacos selfies. Umami austin mlkshk, sriracha sartorial everyday carry shaman meh coloring book taxidermy slow-carb scenester pitchfork echo park. Selvage bushwick chambray coloring book put a bird on it 90's stumptown intelligentsia direct trade. Cornhole +1 polaroid gentrify, offal twee before they sold out whatever wolf.
+Hello 👋 I am Beite,
 
+I am a product manager and marketing professional with 7 years of experience in the tech industry. I have successfully designed and launched app and SaaS products. Expertise in Product Management, Market Survey, and Marketing Strategy (including Growth Marketing and Product Marketing) for both B2B and B2C products.
+
+I began my career as a marketing specialist, where I handled various aspects of marketing, including B2B to B2C marketing, digital marketing, and channel marketing. As part of my job, I frequently traveled to Southeast Asia, which sparked ideas for improving our products. This ultimately led me to transfer teams and transition into the role of a product manager.
+
+My marketing and literary background allows me to understand marketing dilemmas and think from a human perspective, and professionally, I’m able to transfer business concepts into a final product. I am in interested in exploring different products and opportunies. 🌿
 ***
 
 #### Austin scenester...
