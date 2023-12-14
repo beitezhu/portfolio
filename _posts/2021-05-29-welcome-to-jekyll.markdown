@@ -174,15 +174,17 @@ To enhance the security of our cloud service, particularly as the integration of
                     <li>Challenges with compatibility in legacy systems</li>
                </ul>
             </td>
- </table> 
+
  
  
 
 
 <!-- 加入空行 -->
-![]({{ site.baseurl }}/images/SA_overview.jpeg)
+![]({{ site.baseurl }}/images/SA-overview.jpeg)
+
 
 ## **7. Product MVP Requirements**
+
 
    <table>
         <tr>
@@ -287,7 +289,8 @@ To enhance the security of our cloud service, particularly as the integration of
             <td>SMS Notification Integration</td>
             <td>P3</td>
         </tr>
-    </table>
+ 
+
 
 
 ### **Priority Definitions:**
