@@ -134,15 +134,16 @@ tags:   Security
 </html>
 
 
+
 <html>
 <head>
-    <title>Synology Account Security Enhancement - Proposed Solutions</title>
+    <title>Synology Account Security Enhancement</title>
     <style>
         body { 
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: #333333; /* Dark gray color */
+            color: #333333;
         }
-        h2 { 
+        h2, h3 { 
             font-weight: normal;
         }
         table { 
@@ -169,6 +170,7 @@ tags:   Security
 </head>
 <body>
 
+    <!-- Proposed Solution Section -->
     <h2>6. Proposed Solution</h2>
     <table>
         <tr>
@@ -266,41 +268,13 @@ tags:   Security
                 <ul>
                     <li>Significant development and testing required</li>
                     <li>Challenges with compatibility in legacy systems</li>
-                </ul
-</body>
-</html>
-
-
-
-<html>
-<head>
-    <title>Synology Account Security Enhancement - MVP Requirements</title>
-    <style>
-        body { 
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: #333333; /* Dark gray color */
-        }
-        h2, h3 { 
-            font-weight: normal;
-        }
-        table { 
-            margin-left: 20px; 
-            border-collapse: collapse;
-        }
-        th, td { 
-            padding: 8px; 
-            border: 1px solid #ddd;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
-</head>
-<body>
-
+               
+ </table> 
+ 
+ 
+    <!-- Product MVP Requirements Section -->
     <h2>7. Product MVP Requirements</h2>
-    <table>
+     <table>
         <tr>
             <th>#</th>
             <th>Component</th>
@@ -404,6 +378,7 @@ tags:   Security
             <td>P3</td>
         </tr>
     </table>
+
 
     <h3>Priority Definitions:</h3>
     <ul>
