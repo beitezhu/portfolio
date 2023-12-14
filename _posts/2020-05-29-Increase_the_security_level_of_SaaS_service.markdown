@@ -5,70 +5,86 @@ date:   2020-05-29 18:05:55 +0300
 image:  SA_banner.jpeg
 tags:   Security
 ---
-<!DOCTYPE html>
 <html>
 <head>
     <title>Synology Account Security Enhancement</title>
     <style>
-        body { font-family: Arial, sans-serif; }
-        h2 { color: #2A4D69; }
-        h3 { color: #4B88A2; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333333; /* Dark gray color */
+        }
+        h2 { 
+            font-weight: normal;
+        }
+        ul { 
+            list-style-type: disc; 
+            margin-left: 20px; 
+        }
+        li { 
+            margin-bottom: 10px; 
+        }
     </style>
 </head>
 <body>
 
     <h2>1. Purpose and Overview</h2>
-    <p>The Synology Account is a SaaS service with more than 5 million users. It is the entrance to all the Synology cloud cloud service, including QuickConnect, Active Insight, and C2 services. The security level of the Synology account is critical to all the users and company. In addition, users need to utilize the Synology Account services in order to sign up for Synology Events or participate in the community.</p>
-    
-    <h3>Objective:</h3>
-    <p>As the number of products that are linked to the Synology Account within the company increases, it is more critical to enhance the overall security of our cloud service.</p>
-    
-    <h3>Approach:</h3>
     <ul>
-        <li>Provide multiple ways for users to easily set up multi-factor authentication (MFA).</li>
-        <li>Increase user willingness to enable two-factor authentication (2FA) by educating them on its importance.</li>
-        <li>Increase the account security even without 2FA setup.</li>
+        <li><strong>Overview:</strong> Synology Account, a critical SaaS service with over 5 million users, serves as the gateway to all Synology cloud services, including QuickConnect, Active Insight, and C2. The security of Synology Account is paramount, impacting both users and the company. It also facilitates user engagement in Synology Events and community participation.</li>
+        <li><strong>Objective:</strong> To enhance the security of our cloud service, particularly as the integration of products with the Synology Account escalates.</li>
+        <li><strong>Approach:</strong>
+            <ul>
+                <li>Introduce diverse methods for straightforward multi-factor authentication (MFA) setup.</li>
+                <li>Foster user engagement in enabling two-factor authentication (2FA) through education on its significance.</li>
+                <li>Strengthen account security, independent of 2FA activation.</li>
+            </ul>
+        </li>
     </ul>
 
-    <h2>2. Current Statement</h2>
+    <h2>2. Current State Analysis</h2>
     <ul>
-        <li>In 2020, a brute force attack led to data loss and approximately $100,000 in damages for around 50 NAS users. Although measures were taken to mitigate the attack, affecting less than 0.1% of users, there's a recognized need to bolster product security.</li>
-        <li>The current 2FA setup rate stands at a mere 1%. OTP is the only method offered.</li>
-        <li>Some legacy portals support only OTP as the second factor, pending user upgrades.</li>
+        <li>In 2020, a brute force attack caused data loss and incurred about $100,000 in damages, affecting around 50 NAS users. Although the impact was limited to less than 0.1% of users, it underscored the need for enhanced product security.</li>
+        <li>Currently, the adoption rate of 2FA is only 1%, with OTP as the sole available option.</li>
+        <li>Certain legacy portals are restricted to OTP for 2FA, pending upgrades by users.</li>
     </ul>
 
     <h2>3. Problem Statement</h2>
     <ul>
-        <li>The 2FA setup rate is less than 1% among 5 million accounts. Efforts to encourage system upgrades via email have been largely ignored.</li>
-        <li>Users who lose access to OTP (e.g., phone loss) must contact technical support for recovery.</li>
-        <li>Users lack understanding of the setup and usage of 2FA.</li>
+        <li><strong>Low Adoption Rate of Two-Factor Authentication (2FA):</strong> Currently, only a minimal 1% of users have enabled 2FA, predominantly due to the perceived complexity and inconvenience associated with traditional 2FA methods like One-Time Passwords (OTP).</li>
+        <li><strong>User Inaccessibility and Convenience Issues:</strong> Many users face challenges in accessing or managing their 2FA settings, especially in scenarios such as phone loss or OTP inaccessibility. This leads to a reliance on technical support and a general reluctance to engage with existing security measures.</li>
+        <li><strong>Limited Variety in Security Options:</strong> The current security framework primarily relies on OTPs, lacking diversity in authentication methods. This limitation fails to address the varying needs and preferences of a diverse user base.</li>
+        <li><strong>Need for Enhanced User Awareness and Engagement:</strong> There is a significant gap in user understanding and involvement regarding their account's security settings. Users often do not regularly check or update their security preferences, partly due to the lack of a user-friendly interface.</li>
     </ul>
 
-    <h2>Out of Scope</h2>
-    <p>Mandating users to set up 2FA.</p>
+    <p><strong>Out of Scope</strong></p>
+    <ul>
+        <li>Mandatory 2FA implementation remains outside our current scope, focusing instead on voluntary adoption supported by user education and enhanced security features.</li>
+    </ul>
 
-    <h2>5. Research Methodology</h2>
-    <h3>Survey and Inquiry:</h3>
-    <p>Collected 500 responses identifying the top three reasons for low MFA setup: perceived cumbersomeness, uncertainty about setup, and fear of being locked out post-setup.</p>
+</body>
+</html>
 
-    <h3>User Interviews:</h3>
-    <p>Discovered issues with double password entry inconvenience and fears of losing access due to accidental app deletion.</p>
 
-    <h3>Competitive Analysis:</h3>
-    <p>Examined Google, Microsoft, and Adobe’s security login methods. Noted each offers more than two 2FA methods, including OTP and phone push notifications.</p>
-<!DOCTYPE html>
 <html>
 <head>
-    <title>Comparative Analysis of Security Login Methods</title>
+    <title>Synology Account Security Enhancement - Research Methodology</title>
     <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333333; /* Dark gray color */
+        }
+        h2 { 
+            font-weight: normal;
+        }
+        ul, table { 
+            margin-left: 20px; 
+        }
+        li, th, td { 
+            margin-bottom: 10px; 
         }
         th, td {
-            border: 1px solid black;
-            padding: 8px;
+            padding: 5px;
             text-align: left;
+            border-bottom: 1px solid #ddd;
         }
         th {
             background-color: #f2f2f2;
@@ -77,7 +93,22 @@ tags:   Security
 </head>
 <body>
 
-    <h2>Comparative Analysis of Security Login Methods</h2>
+    <h2>4. Research Methodology</h2>
+    
+    <h3>Survey and Inquiry:</h3>
+    <ul>
+        <li>Collected 500 responses identifying the top three reasons for low MFA setup: perceived cumbersomeness, uncertainty about setup, and fear of being locked out post-setup.</li>
+    </ul>
+
+    <h3>User Interviews:</h3>
+    <ul>
+        <li>Discovered issues with double password entry inconvenience and fears of losing access due to accidental app deletion.</li>
+    </ul>
+
+    <h3>Competitive Analysis:</h3>
+    <ul>
+        <li>Examined Google, Microsoft, and Adobe’s security login methods. Noted each offers more than two 2FA methods, including OTP and phone push notifications.</li>
+    </ul>
 
     <table>
         <tr>
@@ -127,15 +158,283 @@ tags:   Security
 </body>
 </html>
 
-    <h2>6. Proposed Solutions</h2>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Synology Account Security Enhancement - Proposed Solutions</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333333; /* Dark gray color */
+        }
+        h2 { 
+            font-weight: normal;
+        }
+        table { 
+            margin-left: 20px; 
+            border-collapse: collapse;
+        }
+        th, td { 
+            padding: 8px; 
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin: 0;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>6. Proposed Solution</h2>
+    <table>
+        <tr>
+            <th>Proposed Solution</th>
+            <th>Pros</th>
+            <th>Cons</th>
+        </tr>
+        <tr>
+            <td>New Login Method: "Approve Signin" Feature</td>
+            <td>
+                <ul>
+                    <li>Enhances security against phishing by diminishing password reliance</li>
+                    <li>Convenient for users: simple approval via phone</li>
+                    <li>Accessible for those who find traditional 2FA methods cumbersome</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Requires stable internet connectivity</li>
+                    <li>Necessitates downloading an additional Synology Secure Signin app</li>
+                    <li>Learning curve: relatively new approach in the market</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Overview Page: Simplified Interface for Security Settings</td>
+            <td>
+                <ul>
+                    <li>User-friendly interface improves understanding of security settings</li>
+                    <li>Promotes user engagement in security practices</li>
+                    <li>Highlights the importance of security to users</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Development demands time and resources</li>
+                    <li>Needs regular updates for new features and threats</li>
+                    <li>Users less likely to check settings regularly as it requires web service login</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Abnormal Sign-in Notification: Login Attempt Alerts</td>
+            <td>
+                <ul>
+                    <li>Increases awareness of unauthorized access attempts</li>
+                    <li>Enables prompt response to potential breaches if they didn't log in</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Risk of notification fatigue in users</li>
+                    <li>Potential for false alarms leading to undue concern</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Abnormal Sign-in Compulsory 2FA: Mandatory 2FA for Abnormal IPs</td>
+            <td>
+                <ul>
+                    <li>Enhances security level by enforcing 2FA on suspicious login attempts</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Can be cumbersome for users, especially if falsely identified as abnormal</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Security Key Integration</td>
+            <td>
+                <ul>
+                    <li>Provides a highly secure, physical authentication method</li>
+                    <li>Useful for users without smartphone access</li>
+                    <li>Adds a new security option for users</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Incurs additional costs for users to acquire keys</li>
+                    <li>Not essential for all, potentially confusing as an unfamiliar option</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Legacy Portal: Update with Advanced 2FA Options</td>
+            <td>
+                <ul>
+                    <li>Upgrades outdated systems to current standards</li>
+                    <li>Extends protection to more users</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Significant development and testing required</li>
+                    <li>Challenges with compatibility in legacy systems</li>
+                </ul
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Synology Account Security Enhancement - MVP Requirements</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333333; /* Dark gray color */
+        }
+        h2, h3 { 
+            font-weight: normal;
+        }
+        table { 
+            margin-left: 20px; 
+            border-collapse: collapse;
+        }
+        th, td { 
+            padding: 8px; 
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>7. Product MVP Requirements</h2>
+    <table>
+        <tr>
+            <th>#</th>
+            <th>Component</th>
+            <th>Feature</th>
+            <th>Priority</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Visual Appearance</td>
+            <td>Design of Overview Page to Identify Account Security Level</td>
+            <td>P1</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Backend</td>
+            <td>Backend Development for "Approve Signin" Service</td>
+            <td>P1</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Mobile App Development</td>
+            <td>Mobile App for Push Notification (Approve Signin)</td>
+            <td>P1</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Visual Appearance</td>
+            <td>User Interface for "Approve Signin" Feature Setup</td>
+            <td>P1</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Backend</td>
+            <td>Update and Secure Legacy Portals with Advanced 2FA</td>
+            <td>P1</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Backend/Frontend</td>
+            <td>Backup Method Implementation</td>
+            <td>P1</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Visual Appearance</td>
+            <td>User Interface for Security Key Setup</td>
+            <td>P2</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Backend</td>
+            <td>Integration of Security Key as a Login Option</td>
+            <td>P2</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Backend/Frontend</td>
+            <td>Abnormal Activity Notification: Login IP History Tracking and Display</td>
+            <td>P2</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Backend</td>
+            <td>Integration with App Push Notification Service</td>
+            <td>P2</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>Backend</td>
+            <td>Email Notification System</td>
+            <td>P2</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>A/B Test</td>
+            <td>Testing "Approve Signin" Feature and OTP Setup Complete Rate</td>
+            <td>P3</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>A/B Test</td>
+            <td>Testing User-Friendliness and Incentive of Overview Security Section</td>
+            <td>P3</td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>Internal Controls</td>
+            <td>Monitoring and Feedback Tools</td>
+            <td>P3</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>Backend/Frontend</td>
+            <td>Privacy Data Deletion Features</td>
+            <td>P3</td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>Backend</td>
+            <td>SMS Notification Integration</td>
+            <td>P3</td>
+        </tr>
+    </table>
+
+    <h3>Priority Definitions:</h3>
     <ul>
-        <li><strong>New Login Method</strong>: Introduce an "approve signin" feature.</li>
-        <li><strong>Overview Page</strong>: Design an interface to simplify understanding and managing security settings.</li>
-        <li><strong>Sign-in Notification</strong>: Implement notifications for login attempts.</li>
-        <li><strong>Other Login Options</strong>: Introduce a security key as an alternative login option.</li>
-        <li><strong>Legacy Portal</strong>: Update and secure legacy portals with advanced 2FA options.</li>
+        <li><strong>P1 (Required for Launch):</strong> Essential features that are critical for the launch.</li>
+        <li><strong>P2 (Expected for Launch):</strong> Important features that are planned for the launch but can be deferred if necessary.</li>
+        <li><strong>P3 (Desired for Launch):</strong> Additional features that would enhance the product but are not crucial for the initial launch.</li>
     </ul>
 
 </body>
 </html>
-
