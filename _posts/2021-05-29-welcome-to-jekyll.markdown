@@ -68,57 +68,10 @@ To enhance the security of our cloud service, particularly as the integration of
 
 
 
-<html>
-<body>
-    <table>
-        <tr>
-            <th>Feature</th>
-            <th>Google</th>
-            <th>Microsoft</th>
-            <th>Adobe</th>
-        </tr>
-        <tr>
-            <td>Two-Factor Authentication (2FA)</td>
-            <td>Yes</td>
-            <td>Yes</td>
-            <td>Yes</td>
-        </tr>
-        <tr>
-            <td>Authentication Methods</td>
-            <td>OTP, Push Notification, U2F Key</td>
-            <td>OTP, Push Notification, Physical Security Key</td>
-            <td>OTP, SMS, Email</td>
-        </tr>
-        <tr>
-            <td>Backup Methods</td>
-            <td>Backup Codes, Secondary Email</td>
-            <td>Secondary Email, Security Questions</td>
-            <td>Recovery Email</td>
-        </tr>
-        <tr>
-            <td>User Interface</td>
-            <td>User-friendly, Intuitive</td>
-            <td>Intuitive, Comprehensive</td>
-            <td>Simple, Straightforward</td>
-        </tr>
-        <tr>
-            <td>Recovery Options</td>
-            <td>Email, Phone</td>
-            <td>Email, Phone, Security Questions</td>
-            <td>Email</td>
-        </tr>
-        <tr>
-            <td>Additional Security Features</td>
-            <td>Advanced Protection Program</td>
-            <td>Microsoft Authenticator App</td>
-            <td>Adobe Account Access</td>
-        </tr>
-    </table>
- </body>
-</html>
-
 
 ![]({{ site.baseurl }}/images/SA-research.jpeg)
+
+
 
 ## **6. Proposed solution**
 
@@ -222,114 +175,32 @@ To enhance the security of our cloud service, particularly as the integration of
             </td>
  </table> 
  
+ 
 ![]({{ site.baseurl }}/images/SA_overview.jpeg)
 
 
+
 ## **7. Product MVP Requirements**
- <table>
-        <tr>
-            <th>#</th>
-            <th>Component</th>
-            <th>Feature</th>
-            <th>Priority</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Visual Appearance</td>
-            <td>Design of Overview Page to Identify Account Security Level</td>
-            <td>P1</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Backend</td>
-            <td>Backend Development for "Approve Signin" Service</td>
-            <td>P1</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Mobile App Development</td>
-            <td>Mobile App for Push Notification (Approve Signin)</td>
-            <td>P1</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>Visual Appearance</td>
-            <td>User Interface for "Approve Signin" Feature Setup</td>
-            <td>P1</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>Backend</td>
-            <td>Update and Secure Legacy Portals with Advanced 2FA</td>
-            <td>P1</td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>Backend/Frontend</td>
-            <td>Backup Method Implementation</td>
-            <td>P1</td>
-        </tr>
-        <tr>
-            <td>7</td>
-            <td>Visual Appearance</td>
-            <td>User Interface for Security Key Setup</td>
-            <td>P2</td>
-        </tr>
-        <tr>
-            <td>8</td>
-            <td>Backend</td>
-            <td>Integration of Security Key as a Login Option</td>
-            <td>P2</td>
-        </tr>
-        <tr>
-            <td>9</td>
-            <td>Backend/Frontend</td>
-            <td>Abnormal Activity Notification: Login IP History Tracking and Display</td>
-            <td>P2</td>
-        </tr>
-        <tr>
-            <td>10</td>
-            <td>Backend</td>
-            <td>Integration with App Push Notification Service</td>
-            <td>P2</td>
-        </tr>
-        <tr>
-            <td>11</td>
-            <td>Backend</td>
-            <td>Email Notification System</td>
-            <td>P2</td>
-        </tr>
-        <tr>
-            <td>12</td>
-            <td>A/B Test</td>
-            <td>Testing "Approve Signin" Feature and OTP Setup Complete Rate</td>
-            <td>P3</td>
-        </tr>
-        <tr>
-            <td>13</td>
-            <td>A/B Test</td>
-            <td>Testing User-Friendliness and Incentive of Overview Security Section</td>
-            <td>P3</td>
-        </tr>
-        <tr>
-            <td>14</td>
-            <td>Internal Controls</td>
-            <td>Monitoring and Feedback Tools</td>
-            <td>P3</td>
-        </tr>
-        <tr>
-            <td>15</td>
-            <td>Backend/Frontend</td>
-            <td>Privacy Data Deletion Features</td>
-            <td>P3</td>
-        </tr>
-        <tr>
-            <td>16</td>
-            <td>Backend</td>
-            <td>SMS Notification Integration</td>
-            <td>P3</td>
-        </tr>
-    </table>
+
+| # | Component            | Feature                                                       | Priority |
+|---|----------------------|---------------------------------------------------------------|----------|
+| 1 | Visual Appearance    | Design of Overview Page to Identify Account Security Level    | P1       |
+| 2 | Backend              | Backend Development for "Approve Signin" Service              | P1       |
+| 3 | Mobile App Development | Mobile App for Push Notification (Approve Signin)           | P1       |
+| 4 | Visual Appearance    | User Interface for "Approve Signin" Feature Setup             | P1       |
+| 5 | Backend              | Update and Secure Legacy Portals with Advanced 2FA            | P1       |
+| 6 | Backend/Frontend     | Backup Method Implementation                                  | P1       |
+| 7 | Visual Appearance    | User Interface for Security Key Setup                         | P2       |
+| 8 | Backend              | Integration of Security Key as a Login Option                 | P2       |
+| 9 | Backend/Frontend     | Abnormal Activity Notification: Login IP History Tracking and Display | P2 |
+| 10 | Backend             | Integration with App Push Notification Service                | P2       |
+| 11 | Backend             | Email Notification System                                     | P2       |
+| 12 | A/B Test             | Testing "Approve Signin" Feature and OTP Setup Complete Rate  | P3       |
+| 13 | A/B Test             | Testing User-Friendliness and Incentive of Overview Security Section | P3 |
+| 14 | Internal Controls    | Monitoring and Feedback Tools                                 | P3       |
+| 15 | Backend/Frontend     | Privacy Data Deletion Features                                | P3       |
+| 16 | Backend              | SMS Notification Integration                                  | P3       |
+
 
 
 ### **Priority Definitions:**
