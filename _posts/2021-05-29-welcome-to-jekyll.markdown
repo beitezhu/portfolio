@@ -12,6 +12,8 @@ tags:   securityproject
 
 Synology Account, a critical SaaS service with over 5 million users, serves as the gateway to all Synology cloud services, including QuickConnect, Active Insight, and C2. The security of Synology Account is paramount, impacting both users and the company. It also facilitates user engagement in Synology Events and community participation.
 
+
+
 ### **Objective:**
 
 To enhance the security of our cloud service, particularly as the integration of products with the Synology Account escalates.
@@ -52,6 +54,18 @@ To enhance the security of our cloud service, particularly as the integration of
 ### **Competitive Analysis:**
 
 - Examined Google, Microsoft, and Adobe’s security login methods. Noted each offers more than two 2FA methods, including OTP and phone push notifications.
+
+| Feature                          | Google                                   | Microsoft                                       | Adobe                      |
+|----------------------------------|------------------------------------------|-------------------------------------------------|----------------------------|
+| Two-Factor Authentication (2FA)  | Yes                                      | Yes                                             | Yes                        |
+| Authentication Methods           | OTP, Push Notification, U2F Key          | OTP, Push Notification, Physical Security Key   | OTP, SMS, Email            |
+| Backup Methods                   | Backup Codes, Secondary Email            | Secondary Email, Security Questions             | Recovery Email             |
+| User Interface                   | User-friendly, Intuitive                 | Intuitive, Comprehensive                        | Simple, Straightforward    |
+| Recovery Options                 | Email, Phone                             | Email, Phone, Security Questions                | Email                      |
+| Additional Security Features     | Advanced Protection Program              | Microsoft Authenticator App                     | Adobe Account Access       |
+
+
+
 
 <html>
 <body>
