@@ -61,35 +61,10 @@ tags:   Security
     </ul>
 
 </body>
-</html>
 
-
-<html>
 <head>
     <title>Synology Account Security Enhancement - Research Methodology</title>
-    <style>
-        body { 
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: #333333; /* Dark gray color */
-        }
-        h2 { 
-            font-weight: normal;
-        }
-        ul, table { 
-            margin-left: 20px; 
-        }
-        li, th, td { 
-            margin-bottom: 10px; 
-        }
-        th, td {
-            padding: 5px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
+   
 </head>
 <body>
 
@@ -159,7 +134,7 @@ tags:   Security
 </html>
 
 
-<!DOCTYPE html>
+
 <html>
 <head>
     <title>Synology Account Security Enhancement - Proposed Solutions</title>
@@ -293,9 +268,10 @@ tags:   Security
                     <li>Significant development and testing required</li>
                     <li>Challenges with compatibility in legacy systems</li>
                 </ul
+</body>
+</html>
 
 
-<!DOCTYPE html>
 <html>
 <head>
     <title>Synology Account Security Enhancement - MVP Requirements</title>
