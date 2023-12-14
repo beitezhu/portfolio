@@ -5,7 +5,24 @@ date:   2021-05-29 18:05:55 +0300
 image:  SA_banner.jpeg
 tags:   securityproject
 ---
-
+<html>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333333; /* Dark gray color */
+        }
+        h2 { 
+            font-weight: normal;
+        }
+        ul { 
+            list-style-type: disc; 
+            margin-left: 20px; 
+        }
+        li { 
+            margin-bottom: 10px; 
+        }
+    </style>
+    
 ## **1. Purpose and Overview**
 
 ### **Overview:**
@@ -330,10 +347,13 @@ To enhance the security of our cloud service, particularly as the integration of
         </tr>
     </table>
 
+
 ### **Priority Definitions:**
 
 - **P1 (Required for Launch)**: Essential features that are critical for the launch.
 - **P2 (Expected for Launch)**: Important features that are planned for the launch but can be deferred if necessary.
 - **P3 (Desired for Launch)**: Additional features that would enhance the product but are not crucial for the initial launch.
+
+</html>
   
   
