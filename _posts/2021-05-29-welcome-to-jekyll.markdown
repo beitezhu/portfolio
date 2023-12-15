@@ -174,7 +174,7 @@ To enhance the security of our cloud service, particularly as the integration of
                     <li>Challenges with compatibility in legacy systems</li>
                </ul>
             </td>
-
+</table>
  
  
 
@@ -186,7 +186,7 @@ To enhance the security of our cloud service, particularly as the integration of
 ## **7. Product MVP Requirements**
 
 
-| # | Component              | Feature                                                       | Priority |
+| N | Component              | Feature                                                       | Priority |
 |---|------------------------|---------------------------------------------------------------|----------|
 | 1 | Visual Appearance      | Design of Overview Page to Identify Account Security Level    | P1       |
 | 2 | Backend                | Backend Development for "Approve Signin" Service              | P1       |
