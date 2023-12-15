@@ -186,6 +186,28 @@ To enhance the security of our cloud service, particularly as the integration of
 ## **7. Product MVP Requirements**
 
 
+| # | Component              | Feature                                                       | Priority |
+|---|------------------------|---------------------------------------------------------------|----------|
+| 1 | Visual Appearance      | Design of Overview Page to Identify Account Security Level    | P1       |
+| 2 | Backend                | Backend Development for "Approve Signin" Service              | P1       |
+| 3 | Mobile App Development | Mobile App for Push Notification (Approve Signin)             | P1       |
+| 4 | Visual Appearance      | User Interface for "Approve Signin" Feature Setup             | P1       |
+| 5 | Backend                | Update and Secure Legacy Portals with Advanced 2FA            | P1       |
+| 6 | Backend/Frontend       | Backup Method Implementation                                  | P1       |
+| 7 | Visual Appearance      | User Interface for Security Key Setup                         | P2       |
+| 8 | Backend                | Integration of Security Key as a Login Option                 | P2       |
+| 9 | Backend/Frontend       | Abnormal Activity Notification: Login IP History Tracking and Display | P2 |
+| 10| Backend                | Integration with App Push Notification Service                | P2       |
+| 11| Backend                | Email Notification System                                     | P2       |
+| 12| A/B Test               | Testing "Approve Signin" Feature and OTP Setup Complete Rate  | P3       |
+| 13| A/B Test               | Testing User-Friendliness and Incentive of Overview Security Section | P3 |
+| 14| Internal Controls      | Monitoring and Feedback Tools                                 | P3       |
+| 15| Backend/Frontend       | Privacy Data Deletion Features                                | P3       |
+| 16| Backend                | SMS Notification Integration                                  | P3       |
+
+
+
+
    <table>
         <tr>
             <th>#</th>
@@ -289,7 +311,7 @@ To enhance the security of our cloud service, particularly as the integration of
             <td>SMS Notification Integration</td>
             <td>P3</td>
         </tr>
- 
+   </table>
 
 
 
